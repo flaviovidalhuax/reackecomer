@@ -1,0 +1,45 @@
+.header{
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+.header__nav{ 
+  
+    width: max-content;
+
+}
+.header__list{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+}
+.header__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.header__title:hover{
+    transform: scale(1.14);
+}
+.header__item:hover{
+    transform: scale(1.2);
+    color: blue;
+}
+.inputSearch{
+    margin: 3rem;
+    box-shadow: 2px 2px 5px 3px gainsboro;
+  
+}
+.inputSearch:hover{
+    transform: scale(1.3);
+}
+

@@ -1,0 +1,129 @@
+.home{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.inputSearch{
+    position: fixed;
+    /* z-index: 100; */
+    border-radius: .3rem;
+}
+.inputSearch:hover{
+    background-color: whitesmoke;
+    transform: scale(1.2);
+}
+.home_container{ background-color:white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  /* animation drip-drop */
+/* 
+.drop { 
+    z-index: 10;
+    background-color: white;
+    position: absolute;
+      width: 20px;
+      height: 20px;
+    top: -30px;
+    margin: 0 auto;
+      background: #89a4ef;
+      border-radius: 50%;
+   
+    animation-name: drip;
+    animation-timing-function: cubic-bezier(1,0,.91,.19);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes drip {
+    to {
+      top: 300px;
+    }
+  }
+  
+  .drop:before {
+    content: "";
+    position: absolute;
+    width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 30px solid #89a4ef;
+    top: -22px;
+    left: 0px;
+  }
+  
+  .wave {
+    position: relative;
+    opacity: 0;
+    top: 0;
+      width: 5px;
+      height: 1px;
+        border: #89a4ef 7px solid;
+      border-radius: 50%;
+  
+    animation-name: ripple;
+   
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes ripple {
+    from {
+      opacity: 1;
+    }
+    to {
+      width: 600px;
+      height: 300px;
+      border-width: 1px;
+      top: -100px;
+      opacity: 0;
+    }
+  }
+  
+  .wave:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    top: -5px;
+    left: -5px;
+      width: 2px;
+      height: 1px;
+    border: #89a4ef 10px solid;
+      border-radius:50%;
+  
+    animation-name: ripple-2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes ripple-2 {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: .5;
+      }
+      75% {
+        opacity: .3;
+      }
+    100% {
+      opacity: 0;
+      width: 200px;
+      height: 100px;
+      border-width: 3px;
+  
+      top: 100px;
+      left: 200px;
+    }
+  }
+   */

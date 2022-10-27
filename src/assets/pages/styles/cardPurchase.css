@@ -1,0 +1,54 @@
+.purchase{
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+}
+.purchase_header{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding:10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px 1px #fff9;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.purchase_h2{
+    padding: 8px;
+    font-size: medium;
+    font-weight: 600;
+   
+}
+.purchase_div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    object-fit: contain;
+    margin: 1rem;
+    gap: .5rem;
+    overflow: hidden;
+    
+    
+    
+}
+.purchase_div-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid black;
+    padding: .5rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    
+}

@@ -1,0 +1,26 @@
+.cart{
+    background-color: hsla(0, 1%, 46%, 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    margin: 2rem;
+}
+.cart_continer{
+    background-color: white;
+    padding: 1rem;
+    width: 100%;
+    min-width: 150px;
+    
+}
+.cart_h2-total{
+    font-size: x-large;
+    padding: .5rem;
+}
+.cart_h2-button{
+    padding: .5rem;
+    border-radius: .3rem;
+}
+.cart_h2-button:hover{
+    transform: scale(1.15);
+    filter: drop-shadow(2px 2px 2px rgba(104, 86, 86, 0.9));
+}

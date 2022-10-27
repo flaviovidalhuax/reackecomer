@@ -1,0 +1,23 @@
+.logInScreen{
+    background-color: red;
+}
+.logInScreen_div{
+    background-color: yellow;
+}
+.logInScreen_div-in{
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: .5rem;
+    border: 1px solid black;
+    margin: 3rem;
+    box-shadow: 4px 4px 15px 2px #716b6b;
+}
+.logInScreen_div-button{
+    padding: .3rem;
+    background-color: rgb(149, 149, 247);
+    border-radius: .3rem;
+}
+.logInScreen_div-button:hover{
+    transform: scale(1.21);
+    box-shadow: inset 1px 1px 1px 60px #fff9;
+}
