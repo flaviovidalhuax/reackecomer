@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles/filterPrice.css'
 
 const FilterPrice = ({setfilterByPrice}) => {
 
@@ -14,15 +15,15 @@ const FilterPrice = ({setfilterByPrice}) => {
   }
 
   return (
-<form onSubmit={handleSubmit}>
-      <h3>Price</h3>
+<form className='fliterPrice' onSubmit={handleSubmit}>
+      <h3 className='fliterPrice_h3'>Price</h3>
       <div>
         <label htmlFor="from">From</label>
-        <input type="number" id='from' />
+        <input placeholder='put a number' type="number" id='from' />
       </div>
       <div>
         <label htmlFor="to">To</label>
-        <input type="number" id='to' />
+        <input placeholder='put a number' type="number" id='to' />
       </div>
       <button className='filter-price_btn'>filter</button>
     </form>

@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { getAllProductsCart, getProductsByCategory } from '../../store/slices/products.slice'
-
+import './styles/filterCategory.css'
 const FilterCategory = () => {
 
     const [categories, setCategories] = useState()
@@ -27,13 +27,15 @@ const FilterCategory = () => {
         }
 
   return (
-   <article>
-    <h3>Category</h3>
+   <article className='filterCategory'>
+    <h3 className='filterCategory_h3'>Category</h3>
         <ul>
-            <li onClick={()=>handleFetcgCategory()}>All products</li>
+            <li className='filterCategory_li' 
+             onClick={()=>handleFetcgCategory()}>All products</li>
             {
             categories?.map(category => (
-                <li key={category.id}
+                <li className='filterCategory_li'
+                    key={category.id}
                     onClick={() => handleFetcgCategory(category.id)}
                 >
                     {category.name}

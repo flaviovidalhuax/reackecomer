@@ -48,7 +48,7 @@ const home = () => {
         <OrderByPrice />
         <div className='home_container'>
             {
-                filterByText?.map(product =>(
+                filterByText?.filter(callBackFilterPrice).map(product =>(
                     <CardProducts
                     key={product.id}
                     product={product}

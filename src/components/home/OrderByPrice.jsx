@@ -5,6 +5,7 @@ import { ascendingProducts, decendengPrpducts } from '../../store/slices/product
 
 const OrderByPrice = () => {
     const dispatch= useDispatch()
+    
     const handleAscending = () =>{
         dispatch(ascendingProducts())
     }
