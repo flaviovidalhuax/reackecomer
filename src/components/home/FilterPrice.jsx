@@ -19,11 +19,11 @@ const FilterPrice = ({setfilterByPrice}) => {
       <h3 className='fliterPrice_h3'>Price</h3>
       <div>
         <label htmlFor="from">From</label>
-        <input placeholder='put a number' type="number" id='from' />
+        <input className='fliterPrice_input' placeholder='put a number' type="number" id='from' />
       </div>
       <div>
         <label htmlFor="to">To</label>
-        <input placeholder='put a number' type="number" id='to' />
+        <input className='fliterPrice_input' placeholder='put a number' type="number" id='to' />
       </div>
       <button className='filter-price_btn'>filter</button>
     </form>

@@ -1,21 +1,22 @@
 .home{
-    background-color: yellow;
-    display: grid;
-    /* flex-direction: column;
-    justify-content: center; */
-    /* align-items: center;
-    text-align: center; */
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
     width: 100%;
-    height:10vh;
-    grid-row-start: span 3;
+    height:fit-content;
+    
 }
-.inputSearch{ background-color: aqua;
+.inputSearch{ background-color: var(--color-inputs);
     position: relative; 
-    z-index: 100; 
     border-radius: .3rem;
 
     display: flex;
-    width: 300px;
+    width: 200px;
 }
 .inputSearch:hover{
     background-color: whitesmoke;

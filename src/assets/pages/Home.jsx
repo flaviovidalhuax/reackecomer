@@ -40,12 +40,13 @@ const home = () => {
   return (
     <main className='home'>
         
-        <InputSearch 
-        setInputText={setInputText}
-        InputSearch={inputText}/>
+        
         <FilterCategory/> 
         <FilterPrice  setfilterByPrice={setfilterByPrice}/>
         <OrderByPrice />
+        <InputSearch 
+        setInputText={setInputText}
+        InputSearch={inputText}/>
         <div className='home_container'>
             {
                 filterByText?.filter(callBackFilterPrice).map(product =>(
@@ -56,8 +57,7 @@ const home = () => {
                 ))
             }
         </div>
-              <div className="drop"></div>
-              <div className="wave"></div>
+            
     </main>
   )
 }
